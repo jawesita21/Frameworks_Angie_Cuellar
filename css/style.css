@@ -1,0 +1,83 @@
+body{
+  background: url(../img/fondo.jpg)fixed;
+  font-family: 'Bitter', serif;
+  margin: auto;
+  position: relative;
+  text-align: justify;
+}
+header{
+  background: #82b1ff;
+}
+p{
+  font-family: 'Bitter', serif;
+}
+h2,h4,h5{
+  font-family: 'Abril Fatface', cursive;
+  text-shadow:3px 2px 3px #000;
+}
+span{
+  font-family: 'Arima Madurai', cursive;
+}
+span i{
+    text-shadow:3px 2px 3px #607d8b;
+}
+h1{
+  font-family: 'Dancing Script', cursive;
+  text-shadow:3px 2px 3px #455a64;
+}
+.fixed{
+  top: 35%;
+  position: fixed;
+}
+.btn-floating{
+  margin: 10px auto!important;
+}
+.gallery{
+  width: 100%;
+  margin: 10px;
+}
+.imagen{
+  position: relative;
+}
+.boton{
+  border-radius: 30px;
+  }
+h2{
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+}
+.card-panel{
+  background: rgba(3, 47, 96, 0.7);
+  border-radius: 30px;
+}
+.card{
+  background: rgba(192, 228, 254, 0.7);
+  border-radius: 30px;
+}
+.logo{
+  width: 180px;
+  top: 5px;
+  left: 20px;
+  margin: auto;
+-webkit-transition:-webkit-transform 1s ease-out;
+-moz-transition:-moz-transform 1s ease-out;
+-o-transition:-o-transform 1s ease-out;
+-ms-transition:-ms-transform 1s ease-out;
+transition:transform 1s ease-out;
+}
+.logo:hover{
+-moz-transform: scale(1.5);
+-webkit-transform: scale(1.5);
+-o-transform: scale(1.5);
+-ms-transform: scale(1.5);
+transform: scale(1.5) translate(30px,20px);
+}
+@media only screen and (max-width: 766px){
+  *{
+    text-align: center;
+  }
+  #logo{
+    width: 30%;
+  }
+}
